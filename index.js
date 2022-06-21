@@ -1,10 +1,8 @@
-// Write your code here!
-const varCheck = "hi"
+// Write your code here!// const body = document.body
+const main = document.getElementById('main')
+document.body.removeChild(main)
 
-document.querySelector("main#main").remove();
-
-const newHeader = document.createElement("hi");
-
-newHeader.id="victory"
-newHeader.innerHTML="Godwin is the champion!"
-newHeader.className="victory";
+const newHeader = document.createElement('h1')
+newHeader.id = 'victory'
+newHeader.innerHTML = 'YOUR-NAME is the champion'
+document.body.appendChild(newHeader)
